@@ -1,0 +1,185 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    max-width: 1080px;
+    margin: 0 auto;
+}
+.head-section{
+    display: flex;
+    height: 100vh;
+}
+.left-section{
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+.right-section{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.right-section img{
+    width: 80%;
+}
+.b-title{
+    font-size: 40px;
+    white-space: nowrap;
+    position: relative;
+    color: white;
+}
+.b-title::before{
+    content: 'HAPPY BIRTHDAY TO YOU';
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: red;
+    animation: typing 5s linear infinite;
+}
+@keyframes typing{
+    0%{
+        content: 'H|';
+    }
+    
+    3%{
+        content: 'HA|';
+    }
+    
+    6%{
+        content: 'HAP|';
+    }
+    
+    9%{
+        content: 'HAPP|';
+    }
+    
+    12%{
+        content: 'HAPPY|';
+    }
+    
+    15%{
+        content: 'HAPPY |';
+    }
+    18%{
+        content: 'HAPPY B|';
+    }
+    21%{
+        content: 'HAPPY BI|';
+    }
+    24%{
+        content: 'HAPPY BIR|';
+    }
+    27%{
+        content: 'HAPPY BIRT|';
+    }
+    30%{
+        content: 'HAPPY BIRTH|';
+    }
+    33%{
+        content: 'HAPPY BIRTHD|';
+    }
+    36%{
+        content: 'HAPPY BIRTHDA|';
+    }
+    39%{
+        content: 'HAPPY BIRTHDAY|';
+    }
+    42%{
+        content: 'HAPPY BIRTHDAY |';
+    }
+    
+    45%{
+        content: 'HAPPY BIRTHDAY T|';
+    }
+    
+    48%{
+        content: 'HAPPY BIRTHDAY TO|';
+    }
+    
+    51%{
+        content: 'HAPPY BIRTHDAY TO |';
+    }
+    
+    54%{
+        content: 'HAPPY BIRTHDAY TO Y|';
+    }
+    
+    57%{
+        content: 'HAPPY BIRTHDAY TO YO|';
+    }
+    
+    60%{
+        content: 'HAPPY BIRTHDAY YOU|';
+    }
+    63%,
+    79%{
+        content: 'HAPPY BIRTHDAY TO YOU|';
+    }
+    80%{
+        content: 'HAPPY BIRTHDAY TO YO|';
+    }
+    81%{
+        content: 'HAPPY BIRTHDAY TO Y|';
+    }
+    82%{
+        content: 'HAPPY BIRTHDAY TO |';
+    }
+    83%{
+        content: 'HAPPY BIRTHDAY TO|';
+    }
+    84%{
+        content: 'HAPPY BIRTHDAY T|';
+    }
+    85%{
+        content: 'HAPPY BIRTHDAY |';
+    }
+    86%{
+        content: 'HAPPY BIRTHDAY|';
+    }
+    87%{
+        content: 'HAPPY BIRTHDA|';
+    }
+    88%{
+        content: 'HAPPY BIRTHD|';
+    }
+    89%{
+        content: 'HAPPY BIRTH|';
+    }
+    90%{
+        content: 'HAPPY BIRT|';
+    }
+    91%{
+        content: 'HAPPY BIR|';
+    }
+    92%{
+        content: 'HAPPY BI|';
+    }
+    93%{
+        content: 'HAPPY B|';
+    }
+    94%{
+        content: 'HAPPY |';
+    }
+    95%{
+        content: 'HAPPY|';
+    }
+    96%{
+        content: 'HAPP|';
+    }
+    97%{
+        content: 'HAP|';
+    }
+    98%{
+        content: 'HA|';
+    }
+    99%{
+        content: 'H|';
+    }
+    100%{
+        content: '|';
+    }
+    
+}
